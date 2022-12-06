@@ -50,6 +50,7 @@ main {
   padding: 30px;
   border-radius: 8px;
   height: 200px;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.35);
 }
 
 .proz_description_services_one p,
@@ -63,4 +64,9 @@ main {
 
 .proz_description_services_description {
   font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
 }
