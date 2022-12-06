@@ -1,9 +1,15 @@
-header {
+.proz__body {
+  background: #59378d;
+  color: #fff;
+  height: 100vh;
+}
+
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   background: orange;
-  padding: 40px;
+  padding: 30px;
 }
 
 nav ul {
@@ -23,5 +29,29 @@ a:hover {
 }
 
 main {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+  margin-top: 40px;
+}
+
+.proz_description_section {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.proz_description_services_one,
+.proz_description_services_two {
+  flex: 1;
+  background: orange;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.proz_description_services_one p,
+.proz_description_services_two p {
+  margin-top: 15px;
 }
