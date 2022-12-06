@@ -33,7 +33,7 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 600px;
+  width: 700px;
   margin-top: 40px;
 }
 
@@ -46,12 +46,21 @@ main {
 .proz_description_services_one,
 .proz_description_services_two {
   flex: 1;
-  background: orange;
+  background: url("./assets/bg_laranja.jpg");
   padding: 30px;
   border-radius: 8px;
+  height: 200px;
 }
 
 .proz_description_services_one p,
 .proz_description_services_two p {
   margin-top: 15px;
+}
+
+.proz_description_services_title {
+  font-size: 18px;
+}
+
+.proz_description_services_description {
+  font-size: 14px;
 }
