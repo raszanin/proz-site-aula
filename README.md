@@ -6,4 +6,4 @@ https://raszanin.github.io/proz-site-aula/
 
 ### Preview
 
-![alt](./assets/capa.png)
+![Capa](./assets/capa.png)
